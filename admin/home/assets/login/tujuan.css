@@ -1,0 +1,53 @@
+body{
+    background: rgb(224, 224, 219);
+}
+.judul-kiri{
+    margin-top: 9%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive;
+    text-align: center;
+    color:rgba(86, 180, 211, 0.7);
+}
+.judul-kanan{
+    text-align: center;
+    margin-top: 9%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive;
+    color:  rgba(214, 73, 132, 0.7);
+}
+.kiri{
+        margin-bottom: 10%;
+        background: rgba(86, 180, 211, 0.7);
+        border-radius:10%;
+        font-size: 30px;
+        font-weight: bold;
+}
+.kanan{
+        margin-bottom: 10%;
+        background: rgba(214, 73, 132, 0.7);
+        border-radius:10%;
+        font-size: 30px;
+        font-weight: bold;
+        color: darkgrey;
+}
+.kanan:hover{
+    background-color: rgba(162, 80, 230, 0.7);
+}
+.kiri:hover{
+    background: rgba(172, 86, 230, 0.7);
+}
+.kiri img{
+    height: 300px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 23px;
+}
+.kanan img{
+    height: 300px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 23px;
+    margin-bottom: 20px;
+}

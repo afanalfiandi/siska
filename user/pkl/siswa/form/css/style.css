@@ -1,0 +1,140 @@
+body {
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #999;
+  line-height: 2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}
+
+a {
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+a,
+a:hover {
+  text-decoration: none !important;
+}
+
+.text-black {
+  color: #000;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.form-control {
+  border: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+.form-control:active,
+.form-control:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #000;
+}
+
+.col-form-label {
+  color: #000;
+}
+
+.btn,
+.form-control {
+  height: 55px;
+}
+
+.heading {
+  color: #888;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.btn {
+  color: #fff;
+  border: none;
+  border-radius: 4px !important;
+  -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1) !important;
+}
+.btn:hover {
+  color: #fff;
+}
+.btn:active,
+.btn:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.box {
+  background: #fff;
+  -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);
+}
+.box h3 {
+  font-size: 14px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+label.error {
+  font-size: 12px;
+  color: red;
+}
+
+#message {
+  resize: vertical;
+}
+
+#form-message-warning,
+#form-message-success {
+  display: none;
+}
+
+#form-message-warning {
+  color: #b90b0b;
+}
+
+#form-message-success {
+  color: #55a44e;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.submitting {
+  text-align: center;
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  display: none;
+  font-weight: bold;
+  font-size: 12px;
+  color: #000;
+}
